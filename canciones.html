@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3AM</title>
+    <link rel="shortcut icon" href="img/Icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="musica.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="vida.html">Vida personal</a>
+                <a href="canciones.html">Discografía</a>
+                <a href="imagenes.html">Galería de Imágenes</a>
+                <a href="redes.html">Contacto / Redes Sociales</a>
+            </nav>
+        </header>
+    </main>
+    <div class="container">
+        <div class="header">
+
+        </div>
+        <div class="music-player">
+            <div id="songInfo">
+                <img id="songImage" src="img/ol.gif" alt="Imagen de la canción">
+                <div id="songName"></div>
+            </div>
+            <audio id="audioPlayer" controls>
+                <source src="" type="audio/mpeg">
+            </audio>
+        </div>
+        
+        <div class="albums">
+            <h2>Álbumes</h2>
+            <ul>
+                <li class="album" data-album="album1">
+                    <img src="img/Album 1.jpg" alt="Album 1">
+                    <div class="album-info">
+                        <h3>Rain City</h3>
+                        <ul class="songs">
+                            <li data-src="audio/3AM - Vuela (Video Oficial)  Rain City.mp3">Vuela</li>
+                            <li data-src="audio/3AM - Endaño (Letra)  Rain City.mp3">Endaño</li>
+                            <li data-src="audio/3AM - Tu me encantas (Video Oficial)  Rain City ☔️.mp3">Tu Me Encantas</li>
+                            <li data-src="audio/3AM - Dime (Letra)  Rain City ☔️.mp3">Dime</li>
+                            <li data-src="audio/3AM - Una Rosa (Letra).mp3">Una rosa</li>
+                            <li data-src="audio/3AM - LQND (Letra)  Rain City ☔️.mp3">LQND</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="album" data-album="album2">
+                    <img src="img/Albun 2.jpeg" alt="Album 2">
+                    <div class="album-info">
+                        <h3>Lluvia: Rain City Vol.2</h3>
+                        <ul class="songs">
+                            <li data-src="audio/3AM - 20 20 (Intro).mp3">20 20</li>
+                            <li data-src="audio/3AM - Negar (Videoletra).mp3">Negar</li>
+                            <li data-src="audio/Olvídala - 3AM, Beret (letra).mp3">Olvidala</li>
+                            <li data-src="audio/3AM - Traición [Letralyrics].mp3">Traición</li>
+                            <li data-src="audio/3AM - Aquí Sigo (Letra).mp3">Aqui sigo - Remix (KHEA)</li>
+                            <li data-src="audio/3AM, Andrea Ferrero - Quédate (Video Oficial).mp3">Quédate - 3AM, Andrea Ferrano</li>
+                            <li data-src="audio/3AM - siempre (letra).mp3">Siempre</li>
+                            <li data-src="audio/3AM, Babi - Tarde (Videoletra).mp3">Tarde - 3AM, Babi</li>
+                            <li data-src="audio/3AM - vacío ft. Rsel [LetraLyrics].mp3">Vacío - 3AM, Rsel</li>
+                            <li data-src="audio/3AM - Dónde Estarás (Letra).mp3">Dónde Estarás</li>
+                            <li data-src="audio/3AM - Tal Vez  LETRA.mp3">Tal Vez</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/musica.js"></script>
+</body>
+</html>

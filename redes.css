@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(img/Icono.jpg);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 10px 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.contacto-redes {
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+.contenedor-contacto-redes {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    background: #333;
+}
+
+.contacto-redes h2 {
+    margin-bottom: 40px;
+    color: #ff9900;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.redes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.red-social {
+    background-color: #444;
+    padding: 30px;
+    width: calc(25% - 20px);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.red-social:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.red-social img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.red-social:hover img {
+    transform: scale(1.1);
+}
+
+.red-social p {
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.6;
+}

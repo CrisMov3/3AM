@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/Icono.jpg);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 10px 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    margin-bottom: 20px; 
+}
+
+.music-player {
+    margin-bottom: 20px; 
+}
+
+.albums {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; 
+}
+
+.albums h2 {
+    color: #ff9900;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.albums ul {
+    list-style: none;
+    padding: 0;
+}
+
+.albums ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.album img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.album-info {
+    flex-grow: 1;
+}
+
+.album-info h3 {
+    color: #ff9900;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.songs {
+    list-style: none;
+    padding: 0;
+}
+
+.songs li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#songImage {
+    width: 350px; 
+    height: 315px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}

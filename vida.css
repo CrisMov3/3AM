@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(img/Icono.jpg);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 10px 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.vida-personal {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contenedor-vida-personal {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.vida-personal h2, .vida-personal h3 {
+    margin-bottom: 20px;
+    color: #ff9900;
+    font-size: 2em;
+    text-align: center;
+}
+
+.biografia, .significado, .inicios, .trayectoria {
+    background-color: #444;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s;
+}
+
+.biografia:hover, .significado:hover, .inicios:hover, .trayectoria:hover {
+    transform: scale(1.05);
+}
+
+.biografia img, .significado img, .inicios img, .trayectoria img {
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.texto {
+    width: 60%;
+    text-align: left;
+}
+
+.biografia p, .significado p, .inicios p, .trayectoria p {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .biografia, .significado, .inicios, .trayectoria {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .biografia img, .significado img, .inicios img, .trayectoria img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .texto {
+        width: 100%;
+    }
+}
